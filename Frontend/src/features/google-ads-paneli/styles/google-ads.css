@@ -1,0 +1,431 @@
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.google-ads-paneli {
+  min-height: 100vh;
+}
+
+.google-ads-dashboard-exact > .relative > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.google-ads-clients-exact > .relative > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.google-ads-planner-exact > .relative > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.google-ads-performance-exact > .relative > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.google-ads-optimization-exact > .relative > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.google-ads-sectors-exact > .relative > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.google-ads-agent-settings-exact > .relative > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.google-ads-general-settings-exact > .relative > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .google-ads-dashboard-exact > .relative > div:first-child {
+    gap: 1.5rem;
+  }
+
+  .google-ads-clients-exact > .relative > div:first-child {
+    gap: 1.5rem;
+  }
+
+  .google-ads-planner-exact > .relative > div:first-child {
+    gap: 1.5rem;
+  }
+
+  .google-ads-performance-exact > .relative > div:first-child {
+    gap: 1.5rem;
+  }
+
+  .google-ads-optimization-exact > .relative > div:first-child {
+    gap: 1.5rem;
+  }
+
+  .google-ads-sectors-exact > .relative > div:first-child {
+    gap: 1.5rem;
+  }
+
+  .google-ads-agent-settings-exact > .relative > div:first-child {
+    gap: 1.5rem;
+  }
+
+  .google-ads-general-settings-exact > .relative > div:first-child {
+    gap: 1.5rem;
+  }
+}
+
+.tab {
+  font-variant-numeric: tabular-nums;
+}
+
+.hs::-webkit-scrollbar {
+  display: none;
+}
+
+.hs {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.su {
+  animation: slide-up 0.3s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes ai-pulse {
+  0%,
+  100% {
+    opacity: 0.25;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.55;
+    transform: scale(1.08);
+  }
+}
+
+.aig {
+  animation: ai-pulse 3s ease-in-out infinite;
+}
+
+@keyframes exec-shine {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.exec-text {
+  background-size: 200% auto;
+  animation: exec-shine 4s ease-in-out infinite;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: scale(1.05);
+    opacity: 0.4;
+  }
+
+  100% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+}
+
+.pulse-ring {
+  animation: pulse-ring 2.5s ease-in-out infinite;
+}
+
+@keyframes flow-dash {
+  to {
+    stroke-dashoffset: -100;
+  }
+}
+
+.flow-line {
+  stroke-dasharray: 8, 4;
+  animation: flow-dash 3s linear infinite;
+}
+
+@keyframes scan-line {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 100%;
+  }
+}
+
+.scan-anim::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #f59e0b, transparent);
+  animation: scan-line 3s linear infinite;
+  pointer-events: none;
+}
+
+.google-ads-paneli button:focus-visible,
+.google-ads-paneli input:focus-visible,
+.google-ads-paneli select:focus-visible {
+  outline: 2px solid #f59e0b;
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.google-ads-paneli .text-\[9px\] {
+  font-size: 11px !important;
+}
+
+.google-ads-paneli .text-\[10px\] {
+  font-size: 12px !important;
+}
+
+.google-ads-paneli .text-\[11px\] {
+  font-size: 13px !important;
+}
+
+.google-ads-paneli .text-\[12px\] {
+  font-size: 14px !important;
+}
+
+.google-ads-paneli .text-\[13px\] {
+  font-size: 15px !important;
+}
+
+.google-ads-paneli .text-\[14px\] {
+  font-size: 16px !important;
+}
+
+.google-ads-paneli .text-\[15px\] {
+  font-size: 17px !important;
+}
+
+.google-ads-paneli .text-\[19px\] {
+  font-size: 21px !important;
+}
+
+.google-ads-paneli .text-\[22px\] {
+  font-size: 24px !important;
+}
+
+.google-ads-paneli .text-\[26px\] {
+  font-size: 28px !important;
+}
+
+.google-ads-paneli .text-\[32px\] {
+  font-size: 34px !important;
+}
+
+.google-ads-paneli tbody td {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.google-ads-paneli thead th {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.google-ads-paneli #navList button,
+.google-ads-paneli #navList a,
+.google-ads-paneli #extraNavList button,
+.google-ads-paneli #archNavList button,
+.google-ads-paneli #archNavList a {
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+}
+
+@media (max-width: 767px) {
+  .google-ads-paneli .text-\[9px\] {
+    font-size: 12px !important;
+  }
+
+  .google-ads-paneli .text-\[10px\] {
+    font-size: 13px !important;
+  }
+
+  .google-ads-paneli .text-\[11px\] {
+    font-size: 14px !important;
+  }
+
+  .google-ads-paneli .text-\[12px\] {
+    font-size: 15px !important;
+  }
+
+  .google-ads-paneli #sidebar {
+    width: 85vw !important;
+    max-width: 300px !important;
+  }
+}
+
+.nav-a {
+  background: linear-gradient(to right, rgba(245, 158, 11, 0.15), rgba(139, 92, 246, 0.08));
+  color: #f59e0b;
+  font-weight: 600;
+  border-left: 2px solid #f59e0b;
+}
+
+.dark .nav-a {
+  background: linear-gradient(to right, rgba(245, 158, 11, 0.22), rgba(139, 92, 246, 0.15));
+  color: #fbbf24;
+}
+
+.nav-arch {
+  background: linear-gradient(to right, rgba(139, 92, 246, 0.15), rgba(99, 102, 241, 0.08));
+  color: #8b5cf6;
+  font-weight: 600;
+  border-left: 2px solid #8b5cf6;
+}
+
+.dark .nav-arch {
+  background: linear-gradient(to right, rgba(139, 92, 246, 0.25), rgba(99, 102, 241, 0.15));
+  color: #a78bfa;
+}
+
+@keyframes toastSlide {
+  from {
+    transform: translateX(60px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes toastProgress {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 0%;
+  }
+}
+
+@keyframes modal-fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modal-slide {
+  from {
+    transform: translateY(20px) scale(0.98);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.modal-overlay {
+  animation: modal-fade 0.2s ease-out;
+}
+
+.modal-panel {
+  animation: modal-slide 0.25s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.modal-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.modal-scroll::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.3);
+  border-radius: 4px;
+}
+
+.modal-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.5);
+}
+
+.trigger-btn {
+  position: relative;
+}
+
+.trigger-btn .trigger-pop {
+  position: absolute;
+  z-index: 40;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.2s;
+  transform: translateY(4px);
+}
+
+.trigger-btn:hover .trigger-pop,
+.trigger-btn:focus-within .trigger-pop {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.glow-amber {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.3), 0 0 40px rgba(245, 158, 11, 0.1);
+}
+
+.glow-violet {
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.3), 0 0 40px rgba(139, 92, 246, 0.1);
+}
+
+.mono-dim {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 10px;
+  color: #94a3b8;
+}

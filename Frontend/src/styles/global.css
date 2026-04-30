@@ -1,0 +1,22 @@
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.ados-frame {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  border: 0;
+  background: #fafafa;
+}

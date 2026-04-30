@@ -1,0 +1,241 @@
+.auth-page {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.auth-page button:focus-visible,
+.auth-page input:focus-visible {
+  outline: 2px solid #f59e0b;
+  outline-offset: 1px;
+  border-radius: 6px;
+}
+
+.login-mascot {
+  position: relative;
+  width: 76px;
+  height: 72px;
+  margin-bottom: 12px;
+  pointer-events: none;
+  filter: drop-shadow(0 10px 18px rgb(15 23 42 / 0.12));
+}
+
+.login-mascot__antenna {
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  width: 24px;
+  height: 22px;
+  border-top: 3px solid #64748b;
+  border-radius: 999px 999px 0 0;
+  transform: translateX(-50%);
+}
+
+.login-mascot__antenna::before,
+.login-mascot__antenna::after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #f59e0b;
+}
+
+.login-mascot__antenna::before {
+  left: -2px;
+}
+
+.login-mascot__antenna::after {
+  right: -2px;
+}
+
+.login-mascot__face {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 64px;
+  height: 56px;
+  border: 2px solid #d1d5db;
+  border-radius: 22px 22px 24px 24px;
+  background:
+    radial-gradient(circle at 24% 35%, rgb(255 255 255 / 0.9), transparent 18px),
+    linear-gradient(145deg, #f8fafc, #e2e8f0);
+  transform: translateX(-50%);
+  transition: transform 180ms ease;
+}
+
+.login-mascot:hover .login-mascot__face {
+  transform: translateX(-50%) translateY(-1px);
+}
+
+.login-mascot__ear {
+  position: absolute;
+  top: 20px;
+  width: 10px;
+  height: 16px;
+  border: 2px solid #d1d5db;
+  background: #e2e8f0;
+}
+
+.login-mascot__ear--left {
+  left: -10px;
+  border-radius: 999px 0 0 999px;
+}
+
+.login-mascot__ear--right {
+  right: -10px;
+  border-radius: 0 999px 999px 0;
+}
+
+.login-mascot__eyes,
+.login-mascot__closed-eyes {
+  position: absolute;
+  top: 17px;
+  left: 13px;
+  right: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-mascot__eye {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  border: 2px solid #111827;
+  border-radius: 999px;
+  background: #ffffff;
+}
+
+.login-mascot__pupil {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 5px;
+  height: 5px;
+  border-radius: 999px;
+  background: #111827;
+  transition: transform 120ms ease-out;
+}
+
+.login-mascot__closed-eyes {
+  top: 21px;
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+
+.login-mascot__closed-eyes span {
+  width: 16px;
+  height: 8px;
+  border-bottom: 3px solid #111827;
+  border-radius: 0 0 999px 999px;
+}
+
+.login-mascot__smile {
+  position: absolute;
+  left: 50%;
+  bottom: 12px;
+  width: 18px;
+  height: 9px;
+  border-bottom: 3px solid #111827;
+  border-radius: 0 0 999px 999px;
+  transform: translateX(-50%);
+}
+
+.login-mascot__hands {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 140ms ease, transform 160ms ease;
+}
+
+.login-mascot__hand {
+  position: absolute;
+  width: 20px;
+  height: 16px;
+  border: 2px solid #cbd5e1;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.login-mascot__hand--left {
+  left: 7px;
+  transform: rotate(-18deg);
+}
+
+.login-mascot__hand--right {
+  right: 7px;
+  transform: rotate(18deg);
+}
+
+.login-mascot--shy .login-mascot__eyes {
+  opacity: 0;
+}
+
+.login-mascot--shy .login-mascot__closed-eyes {
+  opacity: 1;
+}
+
+.login-mascot--shy .login-mascot__hands {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.dark .login-mascot {
+  filter: drop-shadow(0 12px 20px rgb(0 0 0 / 0.35));
+}
+
+.dark .login-mascot__antenna {
+  border-color: #94a3b8;
+}
+
+.dark .login-mascot__face {
+  border-color: #475569;
+  background:
+    radial-gradient(circle at 24% 35%, rgb(255 255 255 / 0.18), transparent 18px),
+    linear-gradient(145deg, #334155, #111827);
+}
+
+.dark .login-mascot__ear,
+.dark .login-mascot__hand {
+  border-color: #475569;
+  background: #1f2937;
+}
+
+.dark .login-mascot__eye {
+  border-color: #e5e7eb;
+  background: #f8fafc;
+}
+
+.dark .login-mascot__pupil {
+  background: #111827;
+}
+
+.dark .login-mascot__closed-eyes span,
+.dark .login-mascot__smile {
+  border-color: #e5e7eb;
+}
+
+@media (max-width: 480px) {
+  .login-mascot {
+    width: 68px;
+    height: 64px;
+    margin-bottom: 10px;
+  }
+
+  .login-mascot__face {
+    width: 58px;
+    height: 50px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .login-mascot *,
+  .login-mascot *::before,
+  .login-mascot *::after {
+    transition: none;
+  }
+}

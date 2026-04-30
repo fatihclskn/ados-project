@@ -1,0 +1,6 @@
+@ADOS.CustomerData.Api_HostAddress = http://localhost:5255
+
+GET {{ADOS.CustomerData.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

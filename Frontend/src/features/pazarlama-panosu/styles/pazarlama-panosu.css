@@ -1,0 +1,246 @@
+html,body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;-webkit-font-smoothing:antialiased;}
+.pazarlama-panosu{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;-webkit-font-smoothing:antialiased;}
+.pazarlama-panosu.tab{font-variant-numeric:tabular-nums;}
+.pazarlama-panosu .hs::-webkit-scrollbar{display:none;}.pazarlama-panosu .hs{-ms-overflow-style:none;scrollbar-width:none;}
+@keyframes typing{0%{opacity:.2}40%{opacity:1}80%{opacity:.2}}
+.pazarlama-panosu .d1{animation:typing 1.2s infinite;}.pazarlama-panosu .d2{animation:typing 1.2s infinite;animation-delay:.18s;}.pazarlama-panosu .d3{animation:typing 1.2s infinite;animation-delay:.36s;}
+@keyframes slide-up{from{transform:translateY(8px);opacity:0}to{transform:none;opacity:1}}
+.pazarlama-panosu .su{animation:slide-up .3s cubic-bezier(.2,.7,.2,1) both;}
+@keyframes ai-pulse{0%,100%{opacity:.25;transform:scale(1)}50%{opacity:.55;transform:scale(1.08)}}
+.pazarlama-panosu .aig{animation:ai-pulse 3s ease-in-out infinite;}
+.pazarlama-panosu button:focus-visible,.pazarlama-panosu input:focus-visible,.pazarlama-panosu select:focus-visible{outline:2px solid #8b5cf6;outline-offset:2px;border-radius:6px;}
+
+  /* Global font scale: %110 zoom esdegeri */
+  .pazarlama-panosu .text-\[9px\]  { font-size: 11px !important; }
+  .pazarlama-panosu .text-\[10px\] { font-size: 12px !important; }
+  .pazarlama-panosu .text-\[11px\] { font-size: 13px !important; }
+  .pazarlama-panosu .text-\[12px\] { font-size: 14px !important; }
+  .pazarlama-panosu .text-\[13px\] { font-size: 15px !important; }
+  .pazarlama-panosu .text-\[14px\] { font-size: 16px !important; }
+  .pazarlama-panosu .text-\[15px\] { font-size: 17px !important; }
+  .pazarlama-panosu .text-\[19px\] { font-size: 21px !important; }
+  .pazarlama-panosu .text-\[22px\] { font-size: 24px !important; }
+  .pazarlama-panosu .text-\[26px\] { font-size: 28px !important; }
+
+  /* Tablo satir ve baslik padding */
+  .pazarlama-panosu tbody td { padding-top: 12px !important; padding-bottom: 12px !important; }
+  .pazarlama-panosu thead th { padding-top: 10px !important; padding-bottom: 10px !important; }
+
+  /* Nav item spacing */
+  .pazarlama-panosu #navList button,
+  .pazarlama-panosu #navList a { padding-top: 7px !important; padding-bottom: 7px !important; }
+
+  .pazarlama-panosu #sidebar { width: 15rem !important; max-width: none !important; flex: 0 0 15rem; }
+  .pazarlama-panosu header { height: 3rem; }
+  .pazarlama-panosu main { min-height: 0; }
+  .pazarlama-panosu #pg { max-width: 1440px; margin-left: auto; margin-right: auto; }
+
+  /* Mobile override */
+  @media(max-width:767px){
+    .pazarlama-panosu .text-\[9px\]  { font-size: 12px !important; }
+    .pazarlama-panosu .text-\[10px\] { font-size: 13px !important; }
+    .pazarlama-panosu .text-\[11px\] { font-size: 14px !important; }
+    .pazarlama-panosu .text-\[12px\] { font-size: 15px !important; }
+    .pazarlama-panosu .text-\[13px\] { font-size: 16px !important; }
+    .pazarlama-panosu .text-\[14px\] { font-size: 17px !important; }
+    .pazarlama-panosu .text-\[15px\] { font-size: 18px !important; }
+    .pazarlama-panosu .text-\[19px\] { font-size: 22px !important; }
+    .pazarlama-panosu #sidebar { width:85vw !important; max-width:300px !important; flex-basis:auto; }
+  }
+  .pazarlama-panosu .text-\[10px\]{font-size:12px!important}.pazarlama-panosu .text-\[11px\]{font-size:13px!important}.pazarlama-panosu .text-\[12px\]{font-size:14px!important}
+.pazarlama-panosu .nav-a{background:rgba(139,92,246,.1);color:#8b5cf6;font-weight:600;}
+.dark .pazarlama-panosu .nav-a{background:rgba(139,92,246,.18);}
+.pazarlama-panosu tr.gr td{transition:background .15s;}
+.pazarlama-panosu tr.gr:hover td{background:rgba(139,92,246,.04);}
+.dark .pazarlama-panosu tr.gr:hover td{background:rgba(139,92,246,.09);}
+
+.pazarlama-panosu .customer-detail-modal {
+  position: static !important;
+  inset: auto !important;
+  z-index: auto !important;
+  display: block !important;
+  width: 100% !important;
+  min-height: auto !important;
+  padding: 0 !important;
+  overflow: visible !important;
+  background: transparent !important;
+}
+
+.pazarlama-panosu .customer-detail-modal__panel {
+  width: 100% !important;
+  max-width: none !important;
+  min-height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+  margin: 0 !important;
+  padding-bottom: 0;
+}
+
+.pazarlama-panosu .customer-detail-modal__panel::-webkit-scrollbar {
+  width: 8px;
+}
+
+.pazarlama-panosu .customer-detail-modal__panel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.pazarlama-panosu .customer-detail-modal__panel::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, .45);
+  border-radius: 999px;
+}
+
+@media(max-width:767px){
+  .pazarlama-panosu .customer-detail-modal__panel {
+    width: 100% !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+}
+
+.dark .pazarlama-panosu .customer-add-modal .bg-white,
+.dark .pazarlama-panosu .customer-detail-modal .bg-white {
+  background-color: #111827 !important;
+}
+
+.dark .pazarlama-panosu .customer-add-modal .bg-gray-50,
+.dark .pazarlama-panosu .customer-detail-modal .bg-gray-50,
+.dark .pazarlama-panosu .customer-add-modal .bg-gray-50\/60,
+.dark .pazarlama-panosu .customer-detail-modal .bg-gray-50\/60,
+.dark .pazarlama-panosu .customer-add-modal .bg-gray-50\/50,
+.dark .pazarlama-panosu .customer-detail-modal .bg-gray-50\/50 {
+  background-color: #1f2937 !important;
+}
+
+.dark .pazarlama-panosu .customer-add-modal .from-purple-50,
+.dark .pazarlama-panosu .customer-detail-modal .from-purple-50,
+.dark .pazarlama-panosu .customer-add-modal .from-gray-50,
+.dark .pazarlama-panosu .customer-detail-modal .from-gray-50 {
+  --tw-gradient-from: rgba(88, 28, 135, .35) var(--tw-gradient-from-position) !important;
+  --tw-gradient-to: rgba(17, 24, 39, 0) var(--tw-gradient-to-position) !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
+}
+
+.dark .pazarlama-panosu .customer-add-modal .to-indigo-50,
+.dark .pazarlama-panosu .customer-detail-modal .to-indigo-50,
+.dark .pazarlama-panosu .customer-add-modal .to-purple-50\/30,
+.dark .pazarlama-panosu .customer-detail-modal .to-purple-50\/30 {
+  --tw-gradient-to: rgba(49, 46, 129, .32) var(--tw-gradient-to-position) !important;
+}
+
+.dark .pazarlama-panosu .customer-add-modal .border-gray-200,
+.dark .pazarlama-panosu .customer-detail-modal .border-gray-200,
+.dark .pazarlama-panosu .customer-add-modal .border-gray-300,
+.dark .pazarlama-panosu .customer-detail-modal .border-gray-300,
+.dark .pazarlama-panosu .customer-add-modal .border-purple-200,
+.dark .pazarlama-panosu .customer-detail-modal .border-purple-200 {
+  border-color: #374151 !important;
+}
+
+.dark .pazarlama-panosu .customer-add-modal .text-gray-900,
+.dark .pazarlama-panosu .customer-detail-modal .text-gray-900 {
+  color: #f9fafb !important;
+}
+
+.dark .pazarlama-panosu .customer-add-modal .text-gray-700,
+.dark .pazarlama-panosu .customer-detail-modal .text-gray-700 {
+  color: #d1d5db !important;
+}
+
+.dark .pazarlama-panosu .customer-add-modal .text-gray-600,
+.dark .pazarlama-panosu .customer-detail-modal .text-gray-600,
+.dark .pazarlama-panosu .customer-add-modal .text-gray-500,
+.dark .pazarlama-panosu .customer-detail-modal .text-gray-500 {
+  color: #9ca3af !important;
+}
+
+.dark .pazarlama-panosu .customer-add-modal input,
+.dark .pazarlama-panosu .customer-add-modal select,
+.dark .pazarlama-panosu .customer-add-modal textarea,
+.dark .pazarlama-panosu .customer-detail-modal input,
+.dark .pazarlama-panosu .customer-detail-modal select,
+.dark .pazarlama-panosu .customer-detail-modal textarea {
+  background-color: #1f2937 !important;
+  border-color: #374151 !important;
+  color: #f9fafb !important;
+}
+
+.dark .pazarlama-panosu .customer-add-modal input::placeholder,
+.dark .pazarlama-panosu .customer-add-modal textarea::placeholder,
+.dark .pazarlama-panosu .customer-detail-modal input::placeholder,
+.dark .pazarlama-panosu .customer-detail-modal textarea::placeholder {
+  color: #6b7280 !important;
+}
+
+.dark .pazarlama-panosu .customer-add-modal button.bg-white,
+.dark .pazarlama-panosu .customer-detail-modal button.bg-white {
+  background-color: #1f2937 !important;
+  border-color: #374151 !important;
+  color: #f9fafb !important;
+}
+
+.dark .pazarlama-panosu .customer-add-modal button[class*="bg-gray-100"][class*="text-gray-700"] {
+  background-color: #1f2937 !important;
+  border: 1px solid #374151 !important;
+  color: #e5e7eb !important;
+}
+
+.dark .pazarlama-panosu .customer-add-modal button[class*="bg-gray-100"][class*="text-gray-700"]:hover {
+  background-color: #374151 !important;
+  border-color: #4b5563 !important;
+  color: #f9fafb !important;
+}
+
+.dark .pazarlama-panosu .customer-add-modal button[class*="bg-purple-600"][class*="shadow-sm"] {
+  background-color: #7c3aed !important;
+  border: 1px solid #a78bfa !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 0 1px rgba(167, 139, 250, .25), 0 8px 18px rgba(124, 58, 237, .25) !important;
+}
+
+.pazarlama-panosu .customer-add-modal {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 9999 !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  padding: 70px 60px 40px !important;
+  overflow: hidden !important;
+  background: rgba(0, 0, 0, .35) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+.pazarlama-panosu .customer-add-modal__panel {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  transform: none !important;
+  width: min(1220px, calc(100vw - 120px)) !important;
+  max-width: none !important;
+  max-height: calc(100vh - 110px) !important;
+  overflow: hidden !important;
+  border-radius: 16px !important;
+}
+
+.pazarlama-panosu .customer-add-modal__panel > .flex-1.overflow-y-auto {
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.pazarlama-panosu .customer-add-modal__panel > .flex-1.overflow-y-auto::-webkit-scrollbar {
+  display: none;
+}
+
+@media(max-width:767px){
+  .pazarlama-panosu .customer-add-modal {
+    padding: 64px 12px 24px !important;
+  }
+
+  .pazarlama-panosu .customer-add-modal__panel {
+    width: 100% !important;
+    max-height: calc(100vh - 88px) !important;
+  }
+}

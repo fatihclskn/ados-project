@@ -1,0 +1,180 @@
+namespace ADOS.CustomerData.Api.DTOs;
+
+public class CustomerFieldsDto
+{
+    public string? CustomerCode { get; set; }
+    public string? BrandName { get; set; }
+    public string? OfficialTitle { get; set; }
+    public string? CustomerStatus { get; set; }
+    public string? DataQualityStatus { get; set; }
+    public string? Source { get; set; }
+    public string? Segment { get; set; }
+    public string? CompanyPhone { get; set; }
+    public string? CompanyWhatsapp { get; set; }
+    public string? CompanyEmail { get; set; }
+    public string? Website { get; set; }
+    public string? City { get; set; }
+    public string? Country { get; set; }
+    public string? Address { get; set; }
+    public List<string>? Services { get; set; }
+    public string? MarketingSegmentNote { get; set; }
+    public string? SummaryNote { get; set; }
+    public string? NewsletterPermission { get; set; }
+    public string? Notes { get; set; }
+    public string? TaxNumber { get; set; }
+    public string? TaxOffice { get; set; }
+    public string? Iban { get; set; }
+    public string? InvoiceEmail { get; set; }
+    public string? InvoiceAddress { get; set; }
+    public string? FinanceContactPerson { get; set; }
+    public string? LastPaymentInfo { get; set; }
+    public string? CollectionNote { get; set; }
+    public string? FinanceNote { get; set; }
+    public string? InstagramUrl { get; set; }
+    public string? LinkedinUrl { get; set; }
+    public string? FacebookUrl { get; set; }
+    public string? MarketingSegmentDetailNote { get; set; }
+    public string? SalesHandoverNote { get; set; }
+    public string? Contact1FullName { get; set; }
+    public string? Contact1Phone { get; set; }
+    public string? Contact1Email { get; set; }
+    public string? Contact1Title { get; set; }
+    public string? Contact2FullName { get; set; }
+    public string? Contact2Phone { get; set; }
+    public string? Contact2Email { get; set; }
+    public string? Contact2Title { get; set; }
+    public string? Contact3FullName { get; set; }
+    public string? Contact3Phone { get; set; }
+    public string? Contact3Email { get; set; }
+    public string? Contact3Title { get; set; }
+    public string? Contact4FullName { get; set; }
+    public string? Contact4Phone { get; set; }
+    public string? Contact4Email { get; set; }
+    public string? Contact4Title { get; set; }
+    public string? Contact5FullName { get; set; }
+    public string? Contact5Phone { get; set; }
+    public string? Contact5Email { get; set; }
+    public string? Contact5Title { get; set; }
+    public string? Contact6FullName { get; set; }
+    public string? Contact6Phone { get; set; }
+    public string? Contact6Email { get; set; }
+    public string? Contact6Title { get; set; }
+    public string? Contact7FullName { get; set; }
+    public string? Contact7Phone { get; set; }
+    public string? Contact7Email { get; set; }
+    public string? Contact7Title { get; set; }
+    public string? Contact8FullName { get; set; }
+    public string? Contact8Phone { get; set; }
+    public string? Contact8Email { get; set; }
+    public string? Contact8Title { get; set; }
+    public string? Contact9FullName { get; set; }
+    public string? Contact9Phone { get; set; }
+    public string? Contact9Email { get; set; }
+    public string? Contact9Title { get; set; }
+    public string? Contact10FullName { get; set; }
+    public string? Contact10Phone { get; set; }
+    public string? Contact10Email { get; set; }
+    public string? Contact10Title { get; set; }
+    public string? Contact11FullName { get; set; }
+    public string? Contact11Phone { get; set; }
+    public string? Contact11Email { get; set; }
+    public string? Contact11Title { get; set; }
+    public string? Contact12FullName { get; set; }
+    public string? Contact12Phone { get; set; }
+    public string? Contact12Email { get; set; }
+    public string? Contact12Title { get; set; }
+    public string? Contact13FullName { get; set; }
+    public string? Contact13Phone { get; set; }
+    public string? Contact13Email { get; set; }
+    public string? Contact13Title { get; set; }
+    public string? Contact14FullName { get; set; }
+    public string? Contact14Phone { get; set; }
+    public string? Contact14Email { get; set; }
+    public string? Contact14Title { get; set; }
+    public string? Contact15FullName { get; set; }
+    public string? Contact15Phone { get; set; }
+    public string? Contact15Email { get; set; }
+    public string? Contact15Title { get; set; }
+    public string? Contact16FullName { get; set; }
+    public string? Contact16Phone { get; set; }
+    public string? Contact16Email { get; set; }
+    public string? Contact16Title { get; set; }
+    public string? Contact17FullName { get; set; }
+    public string? Contact17Phone { get; set; }
+    public string? Contact17Email { get; set; }
+    public string? Contact17Title { get; set; }
+    public string? Contact18FullName { get; set; }
+    public string? Contact18Phone { get; set; }
+    public string? Contact18Email { get; set; }
+    public string? Contact18Title { get; set; }
+    public string? Contact19FullName { get; set; }
+    public string? Contact19Phone { get; set; }
+    public string? Contact19Email { get; set; }
+    public string? Contact19Title { get; set; }
+    public string? Contact20FullName { get; set; }
+    public string? Contact20Phone { get; set; }
+    public string? Contact20Email { get; set; }
+    public string? Contact20Title { get; set; }
+    public string? Contact21FullName { get; set; }
+    public string? Contact21Phone { get; set; }
+    public string? Contact21Email { get; set; }
+    public string? Contact21Title { get; set; }
+    public string? Contact22FullName { get; set; }
+    public string? Contact22Phone { get; set; }
+    public string? Contact22Email { get; set; }
+    public string? Contact22Title { get; set; }
+    public string? Contact23FullName { get; set; }
+    public string? Contact23Phone { get; set; }
+    public string? Contact23Email { get; set; }
+    public string? Contact23Title { get; set; }
+    public string? Contact24FullName { get; set; }
+    public string? Contact24Phone { get; set; }
+    public string? Contact24Email { get; set; }
+    public string? Contact24Title { get; set; }
+    public string? Contact25FullName { get; set; }
+    public string? Contact25Phone { get; set; }
+    public string? Contact25Email { get; set; }
+    public string? Contact25Title { get; set; }
+    public string? Contact26FullName { get; set; }
+    public string? Contact26Phone { get; set; }
+    public string? Contact26Email { get; set; }
+    public string? Contact26Title { get; set; }
+    public string? Contact27FullName { get; set; }
+    public string? Contact27Phone { get; set; }
+    public string? Contact27Email { get; set; }
+    public string? Contact27Title { get; set; }
+    public string? Contact28FullName { get; set; }
+    public string? Contact28Phone { get; set; }
+    public string? Contact28Email { get; set; }
+    public string? Contact28Title { get; set; }
+    public string? Contact29FullName { get; set; }
+    public string? Contact29Phone { get; set; }
+    public string? Contact29Email { get; set; }
+    public string? Contact29Title { get; set; }
+    public string? Contact30FullName { get; set; }
+    public string? Contact30Phone { get; set; }
+    public string? Contact30Email { get; set; }
+    public string? Contact30Title { get; set; }
+}
+
+public class CreateCustomerRequest : CustomerFieldsDto
+{
+}
+
+public class UpdateCustomerRequest : CustomerFieldsDto
+{
+}
+
+public class CustomerResponse : CustomerFieldsDto
+{
+    public Guid Id { get; set; }
+    public DateTime? CreatedAt { get; set; }
+    public DateTime? UpdatedAt { get; set; }
+    public DateTime? LastUpdatedAt { get; set; }
+    public DateTime? LastPriceUpdateAt { get; set; }
+    public bool IsDeleted { get; set; }
+}
+
+public class CustomerDetailDto : CustomerResponse
+{
+}

@@ -1,0 +1,29 @@
+# Frontend
+node_modules/
+dist/
+.vite/
+
+# Backend (.NET)
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Environment
+.env
+.env.local
+appsettings.Development.json
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

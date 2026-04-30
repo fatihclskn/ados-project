@@ -1,0 +1,219 @@
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tab {
+  font-variant-numeric: tabular-nums;
+}
+
+.hs::-webkit-scrollbar {
+  display: none;
+}
+
+.hs {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes typing {
+  0% {
+    opacity: .2;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: .2;
+  }
+}
+
+.d1 {
+  animation: typing 1.2s infinite;
+}
+
+.d2 {
+  animation: typing 1.2s infinite;
+  animation-delay: .18s;
+}
+
+.d3 {
+  animation: typing 1.2s infinite;
+  animation-delay: .36s;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.su {
+  animation: slide-up .3s cubic-bezier(.2, .7, .2, 1) both;
+}
+
+@keyframes ai-pulse {
+  0%,
+  100% {
+    opacity: .25;
+    transform: scale(1);
+  }
+  50% {
+    opacity: .55;
+    transform: scale(1.08);
+  }
+}
+
+.aig {
+  animation: ai-pulse 3s ease-in-out infinite;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid #8b5cf6;
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.text-\[9px\] {
+  font-size: 11px !important;
+}
+
+.text-\[10px\] {
+  font-size: 12px !important;
+}
+
+.text-\[11px\] {
+  font-size: 13px !important;
+}
+
+.text-\[12px\] {
+  font-size: 14px !important;
+}
+
+.text-\[13px\] {
+  font-size: 15px !important;
+}
+
+.text-\[14px\] {
+  font-size: 16px !important;
+}
+
+.text-\[15px\] {
+  font-size: 17px !important;
+}
+
+.text-\[19px\] {
+  font-size: 21px !important;
+}
+
+.text-\[22px\] {
+  font-size: 24px !important;
+}
+
+.text-\[26px\] {
+  font-size: 28px !important;
+}
+
+tbody td {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+thead th {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+#navList button {
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+}
+
+@media (max-width: 767px) {
+  .text-\[9px\] {
+    font-size: 12px !important;
+  }
+
+  .text-\[10px\] {
+    font-size: 13px !important;
+  }
+
+  .text-\[11px\] {
+    font-size: 14px !important;
+  }
+
+  .text-\[12px\] {
+    font-size: 15px !important;
+  }
+
+  .text-\[13px\] {
+    font-size: 16px !important;
+  }
+
+  .text-\[14px\] {
+    font-size: 17px !important;
+  }
+
+  .text-\[15px\] {
+    font-size: 18px !important;
+  }
+
+  .text-\[19px\] {
+    font-size: 22px !important;
+  }
+
+  #sidebar {
+    width: 85vw !important;
+    max-width: 300px !important;
+  }
+}
+
+.nav-a {
+  background: rgba(139, 92, 246, .1);
+  color: #8b5cf6;
+  font-weight: 600;
+}
+
+.dark .nav-a {
+  background: rgba(139, 92, 246, .18);
+}
+
+tr.gr td {
+  transition: background .15s;
+}
+
+tr.gr:hover td {
+  background: rgba(139, 92, 246, .04);
+}
+
+.dark tr.gr:hover td {
+  background: rgba(139, 92, 246, .14);
+}
+
+@keyframes toastSlide {
+  from {
+    transform: translateX(60px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes toastProgress {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}

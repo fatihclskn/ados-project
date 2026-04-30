@@ -1,0 +1,175 @@
+.finans-panosu {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.finans-panosu .tab {
+  font-variant-numeric: tabular-nums;
+}
+
+.finans-panosu .hs::-webkit-scrollbar {
+  display: none;
+}
+
+.finans-panosu .hs {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes finans-slide-up {
+  from {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.finans-panosu .su {
+  animation: finans-slide-up 0.3s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes finans-ai-pulse {
+  0%,
+  100% {
+    opacity: 0.25;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.55;
+    transform: scale(1.08);
+  }
+}
+
+.finans-panosu .aig {
+  animation: finans-ai-pulse 3s ease-in-out infinite;
+}
+
+@keyframes finans-pulse-ring {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+}
+
+.finans-panosu .pulse-ring {
+  animation: finans-pulse-ring 2.5s ease-in-out infinite;
+}
+
+.finans-panosu button:focus-visible,
+.finans-panosu input:focus-visible,
+.finans-panosu select:focus-visible,
+.finans-panosu textarea:focus-visible {
+  outline: 2px solid #f59e0b;
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.finans-panosu .text-\[9px\] {
+  font-size: 11px !important;
+}
+.finans-panosu .text-\[10px\] {
+  font-size: 12px !important;
+}
+.finans-panosu .text-\[11px\] {
+  font-size: 13px !important;
+}
+.finans-panosu .text-\[12px\] {
+  font-size: 14px !important;
+}
+.finans-panosu .text-\[13px\] {
+  font-size: 15px !important;
+}
+.finans-panosu .text-\[14px\] {
+  font-size: 16px !important;
+}
+.finans-panosu .text-\[15px\] {
+  font-size: 17px !important;
+}
+.finans-panosu .text-\[19px\] {
+  font-size: 21px !important;
+}
+.finans-panosu .text-\[22px\] {
+  font-size: 24px !important;
+}
+.finans-panosu .text-\[26px\] {
+  font-size: 28px !important;
+}
+.finans-panosu .text-\[32px\] {
+  font-size: 34px !important;
+}
+
+.finans-panosu tbody td {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.finans-panosu thead th {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.finans-panosu #navList a,
+.finans-panosu #archNavList button {
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+}
+
+.finans-panosu .nav-a {
+  background: linear-gradient(to right, rgba(245, 158, 11, 0.15), rgba(139, 92, 246, 0.08));
+  color: #f59e0b;
+  font-weight: 600;
+  border-left: 2px solid #f59e0b;
+}
+
+.dark .finans-panosu .nav-a {
+  background: linear-gradient(to right, rgba(245, 158, 11, 0.22), rgba(139, 92, 246, 0.15));
+  color: #fbbf24;
+}
+
+.finans-panosu .nav-arch {
+  background: linear-gradient(to right, rgba(139, 92, 246, 0.15), rgba(99, 102, 241, 0.08));
+  color: #8b5cf6;
+  font-weight: 600;
+  border-left: 2px solid #8b5cf6;
+}
+
+.dark .finans-panosu .nav-arch {
+  background: linear-gradient(to right, rgba(139, 92, 246, 0.25), rgba(99, 102, 241, 0.15));
+  color: #a78bfa;
+}
+
+.finans-panosu .mono-dim {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 10px;
+  color: #94a3b8;
+}
+
+@media (max-width: 767px) {
+  .finans-panosu .text-\[9px\] {
+    font-size: 12px !important;
+  }
+  .finans-panosu .text-\[10px\] {
+    font-size: 13px !important;
+  }
+  .finans-panosu .text-\[11px\] {
+    font-size: 14px !important;
+  }
+  .finans-panosu .text-\[12px\] {
+    font-size: 15px !important;
+  }
+  .finans-panosu #sidebar {
+    width: 85vw !important;
+    max-width: 300px !important;
+  }
+}

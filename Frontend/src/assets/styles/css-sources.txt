@@ -1,0 +1,36 @@
+ADOS_Finans_Panosu_30.html
+  stylesheet links: 0
+  tailwind cdn scripts: 1
+    <script src="https://cdn.tailwindcss.com"></script>
+  style blocks: 1
+
+ADOS_Genel_Mudur_Panosu_v2_20.html
+  stylesheet links: 0
+  tailwind cdn scripts: 1
+    <script src="https://cdn.tailwindcss.com"></script>
+  style blocks: 1
+
+ADOS_Google_ADS_Panosu_13.html
+  stylesheet links: 0
+  tailwind cdn scripts: 1
+    <script src="https://cdn.tailwindcss.com"></script>
+  style blocks: 1
+
+ADOS_Login_3.html
+  stylesheet links: 0
+  tailwind cdn scripts: 1
+    <script src="https://cdn.tailwindcss.com"></script>
+  style blocks: 1
+
+ADOS_Pazarlama_Panosu_v2_13.html
+  stylesheet links: 0
+  tailwind cdn scripts: 1
+    <script src="https://cdn.tailwindcss.com"></script>
+  style blocks: 2
+
+ADOS_Satis_Panosu_v1_50.html
+  stylesheet links: 0
+  tailwind cdn scripts: 1
+    <script src="https://cdn.tailwindcss.com"></script>
+  style blocks: 3
+
